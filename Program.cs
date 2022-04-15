@@ -24,7 +24,7 @@ async Task<Post> GetPost(HttpClient client, int id)
 // See https://aka.ms/new-console-template for more information
 
 using HttpClient client = new();
-    {
+{
     client.BaseAddress = new Uri("https://jsonplaceholder.typicode.com");
 
     var tasks = new List<Task<Post>>();
